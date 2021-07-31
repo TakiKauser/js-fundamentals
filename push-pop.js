@@ -12,8 +12,8 @@ console.log(friends);
 console.log(lastItem);
 
 // add an element in the begining of an array in js
-friends.shift();
-console.log(friends);
-// remove first element of an array in 
 friends.unshift("arefin");
 console.log(friends);
+// remove first element of an array in 
+firstElement = friends.shift();
+console.log(firstElement);
